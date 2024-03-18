@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="Option 1"
+        android:icon="@drawable/thanhpho"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item2"
+        android:title="Option 2"
+        android:icon="@drawable/city"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/submenu_item1"
+                android:title="Submenu option 1"
+                android:icon="@drawable/xe1"
+                />
+            <item
+                android:id="@+id/submenu_item2"
+                android:title="Submenu option 2"
+                android:icon="@drawable/xe2"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SQLite DEMO</string>
+    <string name="reminder">Reminder Name</string>
+    <string name="done">DONE</string>
+    <string name="login">LOGIN</string>
+    <string name="my_image_description">Xe</string>
+
+    <string-array name="choice_array">
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>/</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Mua sam</item>
+        <item>Tien an</item>
+        <item>Tien nha</item>
+        <item>Tien dien</item>
+        <item>Tien nuoc</item>
+        <item>Di lai</item>
+    </string-array>
+</resources>
