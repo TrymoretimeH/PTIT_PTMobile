@@ -17,6 +17,8 @@
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:itemTextColor="@color/sqlite_navigation"
+        app:itemIconTint="@color/sqlite_navigation"
         android:layout_alignParentBottom="true"
         app:menu="@menu/sqlite_navigation"
         />
@@ -27,8 +29,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginBottom="60dp"
         android:layout_marginRight="20dp"
-        android:background="@color/yellow"
-        android:src="@drawable/meo"
+        android:backgroundTint="@color/yellow"
+        android:src="@drawable/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </RelativeLayout>
